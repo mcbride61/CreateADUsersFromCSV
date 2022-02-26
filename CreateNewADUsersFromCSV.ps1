@@ -32,8 +32,7 @@ ForEach ($user in $ADusers) {
     $state = $user.State
     $zipcode = $user.Zipcode
     $country = $user.Country
-    $UPN = $user.UPN    
- 
+    $UPN = $user.UPN
 
     # Check to if user already exisit in Active Diretory
     if(Get-ADUser -Filter "SamAccountName -eq '$firstname.$lastname'")  {
@@ -67,9 +66,7 @@ ForEach ($user in $ADusers) {
             -AccountPassword $securePassword `
             -ChangePasswordAtLogon $true `
             -Enabled $true 
-
-
-             #Write output
+            
             Write-host  "Account created for $firstname.$lastname"
     }
 }
