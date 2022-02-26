@@ -3,7 +3,7 @@
 # Import modules
 Import-Module ActiveDirectory
 
-# Create inital password
+# Create initial password
 $securePassword = ConvertTo-SecureString "CreateYourOwnp@ssw0rd!" -AsPlainText -Force
 
 # Prompt user to enter full CSV file path
