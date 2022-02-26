@@ -1,3 +1,4 @@
 First Name;Last Name;Initials;Organizational Unit;Manager;telephone;company;Job Title;description;department;Street Address;City;State;Zipcode;Country;UPN
-Harleen;Quinzel;HQ;CN=Users,DC=contoso,DC=local;Joker;111-555-0127;DC Universe;Psychiatrist;Intern;Mental Health;1 Arkham Asylum;Gotham City;NJ;10101;US;contoso.local
-Bruce;Wayne;BW;CN=Users,DC=contoso,DC=local;;111-555-1250;DC Universe;Batman;"Playboy philanthropist";Hero;1939 Wayne Manor;Gotham;NJ;10111;US;contoso.local
+Harleen;Quinzel;HQ;CN=Users,DC=contoso,DC=local;Joker;111-555-0127;DC Comics;Psychiatrist;Intern;Mental Health;1 Arkham Asylum;Gotham City;NJ;10101;US;contoso.local
+Bruce;Wayne;BW;CN=Users,DC=contoso,DC=local;;111-555-1250;DC Comics;Playboy philanthropist;Batman;Hero;1939 Wayne Manor;Gotham;NJ;10111;US;contoso.local
+Clark;Kent;CK;CN=Users,DC=contoso,DC=local;Lois.Lane;321-555-0145;DC Comics;Journalist;Superman;Hero;39 Hickory Lane;Smallville;KS;66605;US;contoso.local
